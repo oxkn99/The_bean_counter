@@ -11,27 +11,25 @@
 
 ## Technical Context
 
-<!--
-  ACTION REQUIRED: Replace the content in this section with the technical details
-  for the project. The structure here is presented in advisory capacity to guide
-  the iteration process.
--->
-
-**Language/Version**: [e.g., Python 3.11, Swift 5.9, Rust 1.75 or NEEDS CLARIFICATION]  
-**Primary Dependencies**: [e.g., FastAPI, UIKit, LLVM or NEEDS CLARIFICATION]  
-**Storage**: [if applicable, e.g., PostgreSQL, CoreData, files or N/A]  
-**Testing**: [e.g., pytest, XCTest, cargo test or NEEDS CLARIFICATION]  
-**Target Platform**: [e.g., Linux server, iOS 15+, WASM or NEEDS CLARIFICATION]
-**Project Type**: [single/web/mobile - determines source structure]  
-**Performance Goals**: [domain-specific, e.g., 1000 req/s, 10k lines/sec, 60 fps or NEEDS CLARIFICATION]  
-**Constraints**: [domain-specific, e.g., <200ms p95, <100MB memory, offline-capable or NEEDS CLARIFICATION]  
-**Scale/Scope**: [domain-specific, e.g., 10k users, 1M LOC, 50 screens or NEEDS CLARIFICATION]
+**Language/Version**: TypeScript
+**Primary Dependencies**: Vue 3, Vite, Pinia, Tailwind CSS
+**Storage**: N/A (Client-side, ephemeral)
+**Testing**: [NEEDS CLARIFICATION]
+**Target Platform**: Web Browser (GitHub Pages)
+**Project Type**: Client-Side Web Application
+**Performance Goals**: [NEEDS CLARIFICATION]
+**Constraints**: No backend server, minimal external libraries.
+**Scale/Scope**: [NEEDS CLARIFICATION]
 
 ## Constitution Check
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- **Principle I (Frameworks)**: Is the solution using Vue 3, Vite, and TypeScript?
+- **Principle II (Architecture)**: Does the solution avoid a backend server and assume ephemeral data?
+- **Principle III (State Management)**: Is Pinia used for any complex state management?
+- **Principle IV (Styling)**: Is Tailwind CSS used for styling without other UI libraries?
+- **Principle V (Dependencies)**: Are all new dependencies justified and minimal?
 
 ## Project Structure
 
